@@ -15,7 +15,7 @@ function App() {
   const [photoRandom, setPhotoRandom] = useState(initialPhoto)
 
   const objStyle = {
-    backgroundImage: `url(/fondo${photoRandom}.png)`
+    backgroundImage: `url(/fondo${photoRandom}.jpg)`
   }
 
   return (
